@@ -23,15 +23,7 @@ const celulaPressed = (cel) => {
   }
 };
 
-const buttonPressed = (e) => {
-  console.log(e.target.id); // Get ID of Clicked Element
-};
-
 for (let celula of celulas) {
   console.log(celula.id);
   celula.addEventListener("click", celulaPressed);
 }
-
-// function getID(element) {
-//   console.log(element.id);
-// }
