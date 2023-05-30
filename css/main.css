@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.titulo {
+  margin: 50px;
+}
+
+.tab {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  background-color: black;
+}
+
+.column {
+  display: flex;
+  gap: 10px;
+}
+
+.celula {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.celula i {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  font-size: 100px;
+}
+
+/* .vazio {
+  opacity: 0;
+} */
+
+.x {
+  color: blue;
+}
+
+.o {
+  color: red;
+}
+
+.turno {
+  margin: 30px;
+  gap: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+}
+
+.turno i {
+  font-size: 70px;
+}
